@@ -1,7 +1,24 @@
 aid: newme
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newme.png
 name: Newme
-description: 'Newme is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Newme (newme.asia) is an Accel-backed fast-fashion women''s apparel and accessories
+  e-commerce brand operating under the tagline "Freshest Fashion Fastest." It sells trend-driven
+  contemporary womenswear — denim, bottoms, tops, t-shirts, dresses, co-ords, jumpsuits, bodysuits
+  and winterwear — through its website and iOS/Android shopping apps, backed by a growing footprint
+  of physical retail stores across India and Asia. Newme is a consumer direct-to-consumer retailer
+  and, as of this profile, publishes no public developer API, documentation, or developer portal;
+  it is tracked in the API Evangelist network as a company profile.'
 url: https://raw.githubusercontent.com/api-evangelist/newme/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Fashion
+- E-Commerce
+- Retail
+- Apparel
+- Direct-to-Consumer
+- Mobile Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/newme-domain-security.yml
 - type: Website
   url: https://newme.asia/
+- type: TermsOfService
+  url: https://newme.asia/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://newme.asia/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
